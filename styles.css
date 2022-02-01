@@ -20,3 +20,51 @@ h4{
 
     font-size: 14px;
 }
+
+.about-title{
+    font-weight: 500;
+  }
+  
+  .caption{
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .about-description{
+    margin-top: -5px;
+    color: #999;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .about-title{
+      font-size: 22px;
+    }
+    .about-description{
+      font-size: 17px;
+    }
+  }
+  
+  @media screen and (min-width: 577px) and (max-width: 992px) {
+    .about-title{
+      font-size: 30px;
+    }
+    .about-description{
+      font-size: 21px;
+    }
+    #video-area{
+        width: 80%
+    }
+  }
+  
+  @media screen and (min-width: 993px) {
+    .about-title{
+      font-size: 35px;
+    }
+    .about-description{
+      font-size: 25px;
+    }
+    #video-area{
+        width: 60%
+    }
+  }
