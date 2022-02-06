@@ -8,7 +8,7 @@ const krCurr = new Date(utc + krTimediff);
 // const nyCurr = new Date(utc + nyTimediff);
 
 //날짜 차이 계산하기
-const closingTime = new Date("2022-02-20 18:00"); //마감 일자
+const closingTime = new Date("2022/02/20 18:00:00");
 console.log("closingTime:" + closingTime);
 console.log("krCurr:" + krCurr);
 console.log("timeLeft:" + timeLeft);
@@ -29,7 +29,7 @@ if (timeLeftDate >= 3){ //72시간 이상 남았을 때
         if (timeLeft > 0){ //신청 마감 ms 전일 때
             timeLeftMsg = `${parseInt(timeLeftHr)}시간 ${parseInt(timeLeftMin % 60)}분`;
         } else { //신청 마감된 경우
-            timeLeftMsg =  "안 ";
+            timeLeftMsg =  "0초 ";
         }
     }
 }
