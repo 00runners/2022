@@ -1,15 +1,11 @@
+body{
+  font-family: 'Pretendard', sans-serif !important;
+}
+
 h4{
     text-align: center;
     margin-top: 10px;
 }
-
-/* .header-container{
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
-   -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(4px);
-    padding-left: 10px;
-} */
 
 .navbar{
     width: 100%;
@@ -27,7 +23,7 @@ h4{
 }
 
 .about-title{
-    font-weight: 500;
+    font-weight: 600;
   }
   
   .caption{
@@ -41,6 +37,43 @@ h4{
     color: #999;
   }
   
+
+
+
+  
+
+  .scrolling-wrapper{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+   }
+  
+  .course-card{
+    display: inline-block;
+    width: 250px;
+    height: 320px;
+    background-color: #1c1c1c;
+    margin-right: 10px;
+  }
+
+  .playlist-box{
+    text-align: center;
+    padding: 10px;
+    margin: 5px 20px;
+  }
+
+  .playlist-img{
+    margin: 15px;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .courses-img{
+    margin: 10px;
+    width: 160px;
+    height: 160px;
+  }
+
   @media screen and (max-width: 576px) {
     .about-title{
       font-size: 22px;
@@ -74,6 +107,6 @@ h4{
     }
   }
 
-  .leading-6{
-    color: white;
-    }
+  .title-overlay{
+          width: 100%;
+}

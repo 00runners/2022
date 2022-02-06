@@ -34,7 +34,13 @@ if (timeLeftDate >= 3){ //72시간 이상 남았을 때
     }
 }
 
+
+
 console.log(timeLeftMsg);
+
+let timeLeftEcho = `서두르세요! 가입 신청 마감이 <br> ${timeLeftMsg} 남았습니다.`;
+
+document.getElementById('timeLeftMsg').innerHTML = timeLeftEcho;
 
 //******디데이 계산 */
 
