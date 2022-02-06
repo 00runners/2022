@@ -58,7 +58,3 @@ if (dDayNum >= 0){
 console.log(dDayMsg);
 
 document.getElementById('dDayMsg').innerHTML = dDayMsg;
-
-
-
-alert("running?");
