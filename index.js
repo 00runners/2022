@@ -1,7 +1,5 @@
 const curr = new Date();
-const utc = 
-      curr.getTime() + 
-      (curr.getTimezoneOffset() * 60 * 1000);
+const utc = curr.getTime() + (curr.getTimezoneOffset() * 60 * 1000);
 const krTimediff = 9 * 60 * 60 * 1000;
 const krCurr = new Date(utc + krTimediff);
 
@@ -31,7 +29,7 @@ if (timeLeftDate >= 3){ //72시간 이상 남았을 때
         if (timeLeft > 0){ //신청 마감 ms 전일 때
             timeLeftMsg = `${parseInt(timeLeftHr)}시간 ${parseInt(timeLeftMin % 60)}분`;
         } else { //신청 마감된 경우
-            timeLeftMsg=  "안 ";
+            timeLeftMsg =  "안 ";
         }
     }
 }
