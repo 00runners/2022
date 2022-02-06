@@ -1,3 +1,6 @@
+// document.querySelectorAll('h4').innerHTML = "hi";
+// alert("running?");
+
 const curr = new Date();
 const utc = curr.getTime() + (curr.getTimezoneOffset() * 60 * 1000);
 const krTimediff = 9 * 60 * 60 * 1000;
@@ -11,7 +14,6 @@ const krCurr = new Date(utc + krTimediff);
 const closingTime = new Date("2022/02/20 18:00:00");
 console.log("closingTime:" + closingTime);
 console.log("krCurr:" + krCurr);
-console.log("timeLeft:" + timeLeft);
 
 const timeLeft = (closingTime - krCurr);
 const timeLeftMin = timeLeft / (60 * 1000); //마감까지 남은 분
@@ -36,7 +38,7 @@ if (timeLeftDate >= 3){ //72시간 이상 남았을 때
 
 
 
-// console.log(timeLeftMsg);
+console.log(timeLeftMsg);
 
 let timeLeftEcho = `서두르세요! 가입 신청 마감이 <br> ${timeLeftMsg} 남았습니다.`;
 
@@ -56,3 +58,7 @@ if (dDayNum >= 0){
 console.log(dDayMsg);
 
 document.getElementById('dDayMsg').innerHTML = dDayMsg;
+
+
+
+alert("running?");
