@@ -293,9 +293,18 @@
 
  <!-- 가입하기 버튼 -->
 
- <div id="join-btn-area" style="background-color: #999; width: 100%; height: 350px;">
-    a
+ <div id="join-btn-area" style="width: 100%; height: 350px; overflow: hidden;">
+    <video src="/src/btn-bg.mp4" height="350px"type="video/mp4" preload="auto" autoplay="autoplay" loop="loop" muted="muted" volume="0" playsinline
+    style="object-fit: cover;  margin-left: 50vw; transform: translate(-50%); z-index: 0;"></video>
+
+    <div id="join-btn-contents" style="width: 100%; z-index: 1; position: absolute; margin-top: -300px; padding-left: auto">
+        <img src="src/22-1member.png" alt="Join Us!" style="height: 135px;" >
+        <h1 style="font-weight: 600; color: white;">00runners 정규회원</h1>
+        <a class="btn btn-primary" style="padding: 10px 20px 10px 20px; border-radius: 30px;" href="#" role="button">신청하기</a>
+    </div>
+    
 </div>
+
 
 <br><br><br>
 <div class="footer" style="background-color: black; padding: 20px;">
@@ -303,9 +312,8 @@
     <div class="container-sm" style="color: white;">
         <ul>
                 <a href="https://www.instagram.com/00runners/">00runners 인스타그램</a> <br>
-                <a href="#">22-1 운영진 소개</a> <br>
+                <a href="#">1:1 오픈채팅 문의</a> <br>
                 <a href="#">Runpotify 소개</a> <br>
-                <a href="#">문의하기</a> <br>
         </ul>
     </div>
 
