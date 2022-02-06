@@ -11,7 +11,9 @@ const krCurr = new Date(utc + krTimediff);
 
 //날짜 차이 계산하기
 const closingTime = new Date("2022-02-20 18:00") //마감 일자
-// console.log(closingTime);
+console.log("closingTime:" + closingTime);
+console.log("krCurr:" + krCurr);
+console.log("timeLeft:" + timeLeft);
 
 const timeLeft = (closingTime - krCurr);
 const timeLeftMin = timeLeft / (60 * 1000); //마감까지 남은 분
