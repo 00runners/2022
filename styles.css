@@ -51,9 +51,18 @@ h4{
   .course-card{
     display: inline-block;
     width: 250px;
-    height: 320px;
+    height: 300px;
     background-color: #1c1c1c;
     margin-right: 10px;
+    border-radius: 6px;
+  }
+
+  .crs-date{
+    margin-bottom: -3px;
+  }
+
+  .crs-length{
+
   }
 
   .playlist-box{
@@ -72,6 +81,7 @@ h4{
     margin: 10px;
     width: 160px;
     height: 160px;
+    margin-bottom: 20px;
   }
 
   @media screen and (max-width: 576px) {
