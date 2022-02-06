@@ -53,6 +53,6 @@ if (dDayNum >= 0){
     dDayMsg = "지원하기";
 }
 
-// console.log(dDayMsg);
+console.log(dDayMsg);
 
 document.getElementById('dDayMsg').innerHTML = dDayMsg;
